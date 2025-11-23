@@ -1,13 +1,14 @@
 {
-  "name": "ecommerce-react-new",
+  "name": "ecommerce-react-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": " nodemon backend/server.js"
-  },
+  "description": "Backend for Ecommerce React Project",
+  "main": "server.js",
   "type": "module",
-  "keywords": [],
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["ecommerce", "backend", "node", "express"],
   "author": "",
   "license": "ISC",
   "dependencies": {
