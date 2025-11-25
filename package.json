@@ -11,6 +11,11 @@
   "keywords": ["ecommerce", "backend", "node", "express"],
   "author": "",
   "license": "ISC",
+
+  "engines": {
+    "node": "18.x"
+  },
+
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.8.0",
